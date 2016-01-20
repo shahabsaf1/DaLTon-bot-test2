@@ -209,6 +209,7 @@ function create_config( )
     enabled_plugins = {
       "banhammer",
       "echo",
+      "chat",
       "get",
       "google",
       "groupmanager",
@@ -228,7 +229,7 @@ function create_config( )
       "youtube",
       "media_handler",
       "moderation"},
-    sudo_users = {shahabTFBbotmaster,119989724},
+    sudo_users = {119989724,},
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'}
   }
